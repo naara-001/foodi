@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- HEADER -->
+<header class="header">
+    <a href="#home" class="logo">PORTFOLIO<span>.</span></a>
+
+    <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="header-btn">Let's Talk</a>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>Hi, I'm <span>Naara</span> 👋</h1>
+
+        <h2>Creative Web Developer</h2>
+
+        <p class="hero-description">
+            I create modern, responsive and beautiful websites.
+            I love turning ideas into real digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">View My Work</a>
+            <a href="#contact" class="secondary-btn">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <div class="image-background"></div>
+        <img src="photo.jpg.jpg" alt="Profile photo">
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+
+    <div class="about-image">
+        <img src="photo.jpg (5).jpg" alt="About me">
+    </div>
+
+    <div class="about-content">
+        <p class="section-label">ABOUT ME</p>
+
+        <h2>Let Me Introduce Myself</h2>
+
+        <p>
+            Hello! My name is Naara. I am a passionate web developer
+            who enjoys creating websites and exploring new technologies.
+        </p>
+
+        <p>
+            I focus on building clean, user-friendly and responsive
+            websites. I always try to improve my skills and learn
+            something new every day.
+        </p>
+
+        <p>
+            My goal is to create digital experiences that are
+            both useful and visually attractive.
+        </p>
+
+        <a href="#contact" class="primary-btn">More About Me</a>
+    </div>
+
+</section>
+
+<!-- SKILLS -->
+<section class="skills section" id="skills">
+
+    <div class="section-title">
+        <p class="section-label">MY EXPERTISE</p>
+        <h2>My Skills</h2>
+        <p>Technologies and tools I work with.</p>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <div class="skill-icon html">5</div>
+            <h3>HTML5</h3>
+            <p>Web Structure</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon css">3</div>
+            <h3>CSS3</h3>
+            <p>Web Styling</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon js">JS</div>
+            <h3>JavaScript</h3>
+            <p>Programming</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon git">G</div>
+            <h3>Git</h3>
+            <p>Version Control</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon github">GH</div>
+            <h3>GitHub</h3>
+            <p>Code Hosting</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon figma">F</div>
+            <h3>Figma</h3>
+            <p>UI Design</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon react">R</div>
+            <h3>React</h3>
+            <p>Frontend</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon vscode">V</div>
+            <h3>VS Code</h3>
+            <p>Code Editor</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience section" id="experience">
+
+    <div class="section-title">
+        <p class="section-label">MY JOURNEY</p>
+        <h2>Experience & Education</h2>
+        <p>My learning and professional journey.</p>
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-card">
+            <span class="timeline-date">2024 - Present</span>
+            <h3>Web Development</h3>
+            <h4>Personal Learning</h4>
+            <p>
+                Learning modern web technologies and creating
+                responsive websites using HTML and CSS.
+            </p>
+        </div>
+
+        <div class="timeline-card">
+            <span class="timeline-date">2023 - 2024</span>
+            <h3>Frontend Development</h3>
+            <h4>Self Education</h4>
+            <p>
+                Exploring frontend development, website layouts
+                and modern design principles.
+            </p>
+        </div>
+
+        <div class="timeline-card">
+            <span class="timeline-date">2022 - 2023</span>
+            <h3>Education</h3>
+            <h4>Learning Journey</h4>
+            <p>
+                Building a foundation in computer science
+                and digital technologies.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section class="projects section" id="projects">
+
+    <div class="section-title">
+        <p class="section-label">MY RECENT WORK</p>
+        <h2>Featured Projects</h2>
+        <p>Some projects I have worked on.</p>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+            <img src="photo.jpg (3).jpg" alt="Portfolio website">
+
+            <div class="project-content">
+                <span class="project-type">WEB DESIGN</span>
+                <h3>Personal Portfolio</h3>
+                <p>A modern personal portfolio website.</p>
+                <a href="#">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <img src="photo.jpg (2).jpg" alt="Restaurant website">
+
+            <div class="project-content">
+                <span class="project-type">WEB DEVELOPMENT</span>
+                <h3>Restaurant Website</h3>
+                <p>A beautiful website for a modern restaurant.</p>
+                <a href="#">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <img src="photo.jpg (4).jpg" alt="Dashboard">
+
+            <div class="project-content">
+                <span class="project-type">UI DESIGN</span>
+                <h3>Dashboard Design</h3>
+                <p>A clean and simple dashboard interface.</p>
+                <a href="#">View Project →</a>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials section">
+
+    <div class="section-title">
+        <p class="section-label">FEEDBACK</p>
+        <h2>What People Say</h2>
+    </div>
+
+    <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+            <div class="quote">“</div>
+            <p>
+                Very creative work and attention to detail.
+                The result looks clean and professional.
+            </p>
+            <h3>Alex Johnson</h3>
+            <span>Designer</span>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="quote">“</div>
+            <p>
+                Great communication and a beautiful final result.
+                Everything was done with care.
+            </p>
+            <h3>Sarah Williams</h3>
+            <span>Client</span>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="quote">“</div>
+            <p>
+                A talented developer with a good eye for
+                modern and simple design.
+            </p>
+            <h3>Michael Brown</h3>
+            <span>Developer</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+
+    <div class="contact-content">
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Let's Work Together</h2>
+
+        <p>
+            Have a project in mind? Feel free to contact me.
+            Let's create something amazing together.
+        </p>
+
+        <a href="mailto:hello@example.com" class="primary-btn">
+            Send Me an Email
+        </a>
+    </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <a href="#home" class="logo">PORTFOLIO<span>.</span></a>
+
+    <p>Designed with passion. © 2026</p>
+
+    <a href="#home">Back to Top ↑</a>
+</footer>
+
+</body>
+</html>
